@@ -12,7 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
     rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="https://i.etsystatic.com/8305629/r/il/8bdb68/2433928400/il_fullxfull.2433928400_2kz2.jpg">
+  <link rel="icon" type="image/x-icon"
+    href="https://i.etsystatic.com/8305629/r/il/8bdb68/2433928400/il_fullxfull.2433928400_2kz2.jpg">
   <nav id="navigation">
     <ol class="flex-item">
       <li><a href="#Displacement"">Displacement</a></li>
@@ -87,7 +88,7 @@
     </ol>
     </div>
   </section>
-  <footer class="custom-button">
+  <footer class=" custom-button">
       <div>
         <button><a
             href="https://www.savethechildren.org/us/where-we-work/democratic-republic-of-congo?cid=Paid_Search:Google_Paid:Emer_DRC:Nonbrand:031224&s_kwcid=AL!9048!3!693605034397!b!!g!!congo%20aid&gad_source=1&gclid=CjwKCAjwnei0BhB-EiwAA2xuBkCvNI2kwnff_silIOrEmiuJzLk7JmLP7e93nIjL5gcx39PomTgZ_BoCjfUQAvD_BwE&gclsrc=aw.ds">Supporting
@@ -95,63 +96,73 @@
         <button> <a href="https://apnews.com/article/congo-crisis-m23-kivu-2c1c7789e499622e377eefcacc833ec2">More
             information</a></button>
       </div>
-  </footer>
-<div class="revealable video">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/a4lFc43Yx4I?si=lPOyHASIic9GnPEG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+      </footer>
+      <div class="revealable video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/a4lFc43Yx4I?si=lPOyHASIic9GnPEG"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-  <p> For more information <a href="https://www.cfr.org/global-conflict-tracker/conflict/violence-democratic-republic-congo#:~:text=Currently%2C%20DRC%20is%20embroiled%20in,Kivu%20province%20by%20July%202023.">click here</a></p>
-</div>
-  <div class="revealable petition" id="petition">
-
-    <h2>Sign Our Petition 📢</h2>
-    <div class="petition-container">
-
-
-      <div class="petition-para">
-        <p> We urge immediate action to address the ongoing humanitarian crisis in the Democratic Republic of the Congo
-          (DRC). The country is plagued by severe conflict, rampant corruption, and widespread human rights abuses,
-          leaving millions of civilians in dire need of assistance. Displacement, violence, and food insecurity are
-          daily realities for many Congolese citizens, exacerbated by inadequate healthcare and infrastructure. We call
-          upon international organizations and governments to provide critical aid, enforce peacekeeping efforts, and
-          support sustainable development initiatives to restore stability and ensure a brighter future for the people
-          of the DRC. Your support is vital in advocating for these necessary changes.
-        </p>
+        <p> For more informations <a
+            href="https://www.cfr.org/global-conflict-tracker/conflict/violence-democratic-republic-congo#:~:text=Currently%2C%20DRC%20is%20embroiled%20in,Kivu%20province%20by%20July%202023.">click
+            here</a></p>
       </div>
+      <div class="revealable petition" id="petition">
 
-      <div class="signatures">
-        <p>🖊️ Jordan from Brentwood supports this.</p>
-        <p>🖊️ Shem from Hawthorne supports this.</p>
-        <p>🖊️ Paul from Kenosha supports this.</p>
+        <h2>Sign Our Petition 📢</h2>
+        <div class="petition-container">
+
+
+          <div class="petition-para">
+            <p> We urge immediate action to address the ongoing humanitarian crisis in the Democratic Republic of the
+              Congo
+              (DRC). The country is plagued by severe conflict, rampant corruption, and widespread human rights abuses,
+              leaving millions of civilians in dire need of assistance. Displacement, violence, and food insecurity are
+              daily realities for many Congolese citizens, exacerbated by inadequate healthcare and infrastructure. We
+              call
+              upon international organizations and governments to provide critical aid, enforce peacekeeping efforts,
+              and
+              support sustainable development initiatives to restore stability and ensure a brighter future for the
+              people
+              of the DRC. Your support is vital in advocating for these necessary changes.
+            </p>
+          </div>
+
+          <div class="signatures">
+            <p>🖊️ Jordan from Brentwood supports this.</p>
+            <p>🖊️ Shem from Hawthorne supports this.</p>
+            <p>🖊️ Paul from Kenosha supports this.</p>
+          </div>
+
+        </div>
+
+        <!--- Sign Petition Form --->
+        <form id="sign-petition" title="sign-petition">
+          <label for="name"> Name:</label>
+          <input type="text" id="name">
+          <label for="hometown">Hometown:</label>
+          <input type="text" id="hometown">
+          <label for="email"> Email:</label>
+          <input type="text" id="email">
+          <button type="submit" value="submit">Sign Now</button>
+
+        </form>
       </div>
+      <!-- Modal -->
+      <div id="thanks-modal" class="modal">
 
-    </div>
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div id="modal-text-container">
+            <p> Thank you for showing your solidarity by signing this petition!</p>
+            <button id="closeModalButton">Close</button>
+          </div>
+          <img src="https://commitchange.s3.amazonaws.com/uploads/npo/logo/4752/StandBack-3.1.jpg" alt="Thank you image"
+            id="modal-image" width="200" height="200">
+        </div>
 
-    <!--- Sign Petition Form --->
-    <form id="sign-petition" title="sign-petition">
-      <label for="name"> Name:</label>
-      <input type="text" id="name">
-      <label for="hometown">Hometown:</label>
-      <input type="text" id="hometown">
-      <label for="email"> Email:</label>
-      <input type="text" id="email">
-      <button type="submit" value="submit">Sign Now</button>
-
-    </form>
-  </div>
-  <!-- Modal -->
-  <div id="thanks-modal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-      <div id="modal-text-container">
-<p> Thank you for showing your solidarity by signing this petition!</p>
-<button id="closeModalButton">Close</button>    
       </div>
-      <img src="https://commitchange.s3.amazonaws.com/uploads/npo/logo/4752/StandBack-3.1.jpg" alt="Thank you image" id="modal-image" width="200" height="200">
-    </div>
-
-  </div>
-  <script src="index.js"></script>
+      <script src="index.js"></script>
 </body>
 
 </html>
